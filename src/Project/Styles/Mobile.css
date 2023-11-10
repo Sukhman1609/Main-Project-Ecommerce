@@ -1,0 +1,217 @@
+.mobileContainer{
+    /* border: 2px solid red; */
+    margin-top: 0px;
+    display: flex;
+       flex-wrap: wrap;
+
+}
+.left{
+    width: 220px;
+    height:200px;
+    margin-left:20px;
+    margin-top:70px;
+    background-color: rgb(232, 231, 231);
+    box-shadow: 5px 5px 3px rgb(229, 221, 221);
+}
+.left1{
+    width: 220px;
+    
+    /* height:700px; */
+}
+.bestSellerContainer1{
+    /* border: 2px solid green;  */
+    width:1150px;
+    /* height: 1300px; */
+    margin-top: -810px;
+    margin-left: 290px;
+}
+.bestSellerHr1{
+    width: 90px;
+    height: 3px;
+    background-color: coral;
+    border: none;
+    margin-top: -90px;
+    margin-left: 540px;
+    }
+ul{
+    list-style: none;
+    font-size: 15pt;
+}
+.sublist:hover{
+    font-size: 16pt;
+    font-weight:600 ;
+}
+.cards1{
+    /* border: 2px solid red; */
+    width: 95%;
+    /* height: 1250px; */
+    margin-left: 0;
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+   
+}
+.box1{
+    border: 2px solid rgb(226, 223, 223);
+    height: 370px;
+    width: 250px;
+   border-radius: 10px;
+   margin-bottom: 30px; 
+   /* background-color: rgb(255, 255, 255); */
+}
+.box1:hover{
+    box-shadow: -5px 5px 5px  rgb(229, 221, 221);
+    height: 380px;
+    width: 260px;
+}
+.mimg{
+    height:500px;
+    width:220px;
+    margin-left:20px;
+    margin-top:20px
+}
+@media only screen and (min-width: 270px) and (max-width: 540px) {
+    .mobileContainer{
+       display: flex;
+       flex-wrap: wrap;
+        margin-top: 0px;
+        
+    
+    }
+    .left{
+       display: none;
+    }
+    .left1{
+        width: 320px;
+        left: 40px;
+       margin-top: 5000px;
+    }
+    
+    .bestSellerContainer1{
+        /* border: 2px solid green;  */
+        width:1150px;
+        /* height: 1300px; */
+        margin-top: -5400px;
+        margin-left: 0px;
+    }
+    .bestSellerHr1{
+        width: 90px;
+        height: 3px;
+        background-color: coral;
+        border: none;
+        margin-top: -90px;
+        margin-left: 130px;
+        }
+    ul{
+        list-style: none;
+        font-size: 15pt;
+    }
+    .sublist:hover{
+        font-size: 16pt;
+        font-weight:600 ;
+    }
+    .cards1{
+        /* border: 2px solid red; */
+        width: 95%;
+        /* height: 1250px; */
+        margin-left: 40px;
+        margin-top: 30px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+       
+    }
+    .box1{
+        border: 2px solid rgb(226, 223, 223);
+        height: 370px;
+        width: 290px;
+       border-radius: 10px;
+       margin-bottom: 30px; 
+       /* background-color: rgb(255, 255, 255); */
+    }
+    .box1:hover{
+        box-shadow: -5px 5px 5px  rgb(229, 221, 221);
+        height: 380px;
+        width: 260px;
+    }
+    .mimg{
+        height:500px;
+        width:310px;
+        margin-left:35px;
+        margin-top:20px
+    }
+}
+
+@media (min-width: 750px) and (max-width: 1024px) {
+    .mobileContainer{
+        display: flex;
+        flex-wrap: wrap;
+        /* flex-direction: column;   */
+         margin-top: -140px;
+         
+     
+     }
+     .left{
+        display: none;
+     }
+     .left1{
+         width: 320px;
+         left: 40px;
+        margin-top: 2650px;
+     }
+     
+     .bestSellerContainer1{
+         /* border: 2px solid green;  */
+         width:1150px;
+         /* height: 1300px; */
+         margin-top: -3000px;
+         margin-left: 0px;
+     }
+     .bestSellerHr1{
+         width: 90px;
+         height: 3px;
+         background-color: coral;
+         border: none;
+         margin-top: -90px;
+         margin-left: 270px;
+         }
+     ul{
+         list-style: none;
+         font-size: 15pt;
+     }
+     .sublist:hover{
+         font-size: 16pt;
+         font-weight:600 ;
+     }
+     .cards1{
+         /* border: 2px solid red; */
+         width: 95%;
+         /* height: 1250px; */
+         margin-left: 40px;
+         margin-top: 30px;
+         display: flex;
+         flex-wrap: wrap;
+         justify-content: space-evenly;
+        
+     }
+     .box1{
+         border: 2px solid rgb(226, 223, 223);
+         height: 370px;
+         width: 290px;
+        border-radius: 10px;
+        margin-bottom: 30px; 
+        /* background-color: rgb(255, 255, 255); */
+     }
+     .box1:hover{
+         box-shadow: -5px 5px 5px  rgb(229, 221, 221);
+         height: 380px;
+         width: 260px;
+     }
+     .mimg{
+         height:500px;
+         width:710px;
+         margin-left:35px;
+         margin-top:20px
+     }
+}

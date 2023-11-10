@@ -1,0 +1,270 @@
+.footer {
+    background-color: black;
+    width: 100%;
+    color: #fff;
+    padding: 40px 0;
+    font-size: 14px;
+  }
+  
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+
+  .links2:hover{
+    font-weight: 700;
+    font-size: 15pt;
+  }
+
+
+  
+  .footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .footer-logo {
+    flex: 1;
+    max-width: 250px;
+    margin-right: 30px;
+  }
+  
+  .footer-logo h2 {
+    font-size: 24px;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .con{
+    width: 300px;
+    font-size: 10pt;
+  }
+  
+  .footer-links {
+    flex: 1;
+    max-width: 250px;
+    margin-right: 30px;
+  }
+  
+  .footer-links h3 {
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .footer-links ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-links ul li {
+    margin-bottom: 8px;
+    color: #fff;
+  }
+  .foimg{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+  }
+  
+  .footer-links ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .footer-links ul li a:hover {
+    color: #f0f0f0;
+  }
+  
+  .footer-social {
+    flex: 1;
+    max-width: 250px;
+    margin-right: 30px;
+    margin-left: 40px;
+  }
+  
+  .footer-social h3 {
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .footer-social ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+  }
+  
+  .footer-social ul li {
+    margin-right: 10px;
+    text-decoration: none;
+    color: #f0f0f0;
+  }
+  
+  .footer-social ul li:last-child {
+    margin-right: 0;
+  }
+  
+  .folink{
+    color: #f0f0f0;
+  }
+  .footer-social ul li  {
+    color: #fff;
+    text-decoration: none;
+    font-size: 28px;
+  }
+  
+  .footer-contact {
+    flex: 1;
+    max-width: 300px;
+  }
+  
+  .footer-contact h3 {
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .footer-contact p {
+    margin-top: 10px;
+    font-size: 15pt;
+  }
+  
+  .footer-bottom {
+    background-color: #222;
+    text-align: center;
+    padding: 10px 0;
+  }
+  
+  .footer-bottom p {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+  }
+  
+  @media only screen and (min-width: 270px) and (max-width: 640px) {
+    footer.footer {
+      width: 100%; 
+      margin-left: 0px;
+    
+    }
+    .footer-social{
+      position: relative;
+      left: 100px;
+      top:-430px;
+    }
+    .footer-logo{
+      position: relative;
+      left: -20px;
+    }
+    .footer-links{
+      position: relative;
+      left: -40px;
+    }
+    .footer-contact{
+      position: relative;
+      top: -120px;
+    }
+    .footer-bottom{
+      position: relative;
+      top: -120px;
+    }
+    
+    .footer-content {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .footer-logo,
+    .footer-links,
+    .footer-social,
+    .footer-contact {
+      margin: 0;
+      margin-bottom: 20px;
+      margin-left: 50px;
+      max-width: 100%;
+      font-size: large;
+    }
+  
+    .footer-social ul {
+      justify-content: center;
+    }
+    .con{
+      display: none;
+    }
+  }
+  
+  @media (min-width: 750px) and (max-width: 1024px) {
+    .footer-social{
+      position: relative;
+      left: 190px;
+      font-size: larger;
+      /* top:-430px; */
+    }
+    .footer-logo{
+      position: relative;
+      left: 20px;
+      font-size: larger;
+    }
+    .footer-links{
+      position: relative;
+      left: 70px;
+      top: 250px;
+      font-size: larger;
+    }
+    .con{
+      position: relative;
+      left: 180px;
+      top: -250px;
+      font-size: larger;
+    }
+    .footer-contact{
+      position: relative;
+      top: 40px;
+    }
+    .footer-bottom{
+      position: relative;
+      top: 0px;
+    }
+  }
+  
+  @media (min-width: 910px) and (max-width: 913px){
+    .footer-social{
+      position: relative;
+      left: -80px;
+      font-size: larger;
+      /* top:-430px; */
+    }
+    .footer-logo{
+      position: relative;
+      left: 90px;
+      font-size: larger;
+    }
+    .footer-links{
+      position: relative;
+      left: 70px;
+      top: 250px;
+      font-size: larger;
+    }
+    .con{
+      position: relative;
+      left: -70px;
+      top: -10px;
+      font-size: larger;
+    }
+    .footer-contact{
+      position: relative;
+      top: 40px;
+      left: 500px;
+    }
+    .footer-bottom{
+      position: relative;
+      top: 0px;
+    }
+  }

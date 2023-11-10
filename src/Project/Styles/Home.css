@@ -1,0 +1,265 @@
+.bestSeller{
+    font-size: 25pt;
+    font-weight: 500;
+    text-align: center;
+    position: relative;
+    top: -60px;
+}
+.bestSellerHr{
+width: 90px;
+height: 3px;
+background-color: coral;
+border: none;
+margin-top: -90px;
+margin-left: 700px;
+}
+.cards{
+    /* border: 2px solid red; */
+    width: 80%;
+    height: 850px;
+    margin-left: 10%;
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+   
+}
+.box{
+    border: 2px solid rgb(226, 223, 223);
+    height: 370px;
+    width: 250px;
+   border-radius: 10px;
+   /* background-color: rgb(255, 255, 255); */
+}
+.box:hover{
+    box-shadow: -5px 5px 5px  rgb(229, 221, 221);
+    height: 380px;
+    width: 260px;
+}
+.subImg{
+    height: 150px;
+    width: 130px;
+    margin-top: 20px;
+    margin-left: 70px;
+}
+.bestSellerButton{
+    font-size: 11pt;
+    font-weight: 600;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(29, 29, 57);
+    color: aliceblue;
+    position: relative;
+    left: 85px;
+    top: -10px;
+}
+.bestSellerButton:hover{
+    background-color: green;
+}
+.name{
+    font-weight: 700;
+    text-align: center;
+    font-size: 10pt;
+}
+.price{
+    color: brown;
+    font-weight: 500;
+    text-align: center;
+}
+.rating{
+    text-align: center;
+    font-weight: 600;
+    margin-top: -20px;
+}
+.gif{
+    border: 1px solid black;
+    width: 99%;
+    height: 500px;
+    margin-left: 0.5%;
+}
+
+.otherOptions{
+    /* border: 4px solid black; */
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.otherImg{
+    width: 130px;
+    height: 130px;
+    margin-left: 80px;
+}
+.otherOptionsBox{
+    /* border: 4px solid blue; */
+    height: 250px;
+    width: 300px;
+}
+
+@media only screen and (min-width: 270px) and (max-width: 540px) {
+    .bestSeller{
+        font-size: 25pt;
+        font-weight: 500;
+        text-align: center;
+        position: relative;
+        top: -60px;
+    }
+    .bestSellerHr{
+    width: 90px;
+    height: 3px;
+    background-color: coral;
+    border: none;
+    margin-top: -90px;
+    margin-left: 150px;
+    }
+    .cards{
+        /* border: 2px solid red; */
+        /* width: 80%; */
+        height: 850px;
+        margin-left: 12%;
+        margin-top: 30px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+       
+    }
+    .box{
+        border: 2px solid rgb(226, 223, 223);
+        height: 370px;
+        width: 310px;
+       border-radius: 10px;
+       margin-bottom: 40px;
+       /* background-color: rgb(255, 255, 255); */
+    }
+    .box:hover{
+        box-shadow: -5px 5px 5px  rgb(229, 221, 221);
+        height: 370px;
+        width: 310px;
+    }
+    .subImg{
+        height: 150px;
+        width: 130px;
+        margin-top: 20px;
+        margin-left: 90px;
+    }
+    .bestSellerButton{
+        font-size: 11pt;
+        font-weight: 600;
+        height: 30px;
+        border-radius: 5px;
+        border: none;
+        background-color: rgb(29, 29, 57);
+        color: aliceblue;
+        position: relative;
+        left: 115px;
+        top: -10px;
+    }
+    .bestSellerButton:hover{
+        background-color: green;
+    }
+    .name{
+        font-weight: 700;
+        text-align: center;
+        font-size: 10pt;
+    }
+    .price{
+        color: brown;
+        font-weight: 500;
+        text-align: center;
+    }
+    .rating{
+        text-align: center;
+        font-weight: 600;
+        margin-top: -20px;
+    }
+    .gif{
+        border: 1px solid black;
+        width: 99%;
+        height: 500px;
+        margin-left: 0.5%;
+        margin-top: 2450px;
+    }
+    
+    .otherOptions{
+        /* border: 4px solid black; */
+        margin-top: 40px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    .otherImg{
+        width: 130px;
+        height: 130px;
+        margin-left: 80px;
+    }
+    .otherOptionsBox{
+        /* border: 4px solid blue; */
+        height: 250px;
+        width: 300px;
+    }
+  }
+
+  @media (min-width: 750px) and (max-width: 1024px) {
+    .bestSeller{
+        font-size: 25pt;
+        font-weight: 500;
+        text-align: center;
+        position: relative;
+        top: -60px;
+    }
+    .bestSellerHr{
+    width: 90px;
+    height: 3px;
+    background-color: coral;
+    border: none;
+    margin-top: -90px;
+    margin-left: 320px;
+    }
+    .cards{
+        /* border: 2px solid red; */
+        /* width: 80%; */
+        width: 700px;
+        height: 850px;
+        margin-left: 5%;
+        margin-top: 30px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+       
+    }
+    .box{
+        border: 2px solid rgb(226, 223, 223);
+        height: 370px;
+        width: 310px;
+       border-radius: 10px;
+       margin-bottom: 40px;
+       /* background-color: rgb(255, 255, 255); */
+    }
+    
+    .gif{
+        border: 1px solid black;
+        width: 99%;
+        height: 500px;
+        margin-left: 0.5%;
+        margin-top: 850px;
+    }
+    
+    .otherOptions{
+        /* border: 4px solid black; */
+        margin-top: 40px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    .otherImg{
+        width: 130px;
+        height: 130px;
+        margin-left: 80px;
+    }
+    .otherOptionsBox{
+        /* border: 4px solid blue; */
+        height: 250px;
+        width: 300px;
+    }
+  }

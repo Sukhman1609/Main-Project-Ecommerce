@@ -1,0 +1,111 @@
+.mainDetails{
+    margin-top: 70px;
+    /* border: 2px solid red; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.subImg2{
+    /* border: 2px solid blueviolet;  */
+    width: 430px;
+}
+.rightDetails{
+    /* border: 2px solid green;  */
+    width: 860px;
+    margin-left: 30px ;
+}
+.name2{
+    font-size: 19pt;
+    font-weight: 500;
+}
+.rating2{
+    text-align: left;
+    font-size: 18pt;
+    margin-top: -20px;
+}
+.price2{
+    font-size: 20pt;
+    font-weight: 500;
+    color: rgb(141, 59, 12);
+    margin-top: -20px;
+}
+
+table{
+    margin-bottom: 20px;
+}
+
+td{
+    border: 1px solid gainsboro;
+    font-size: 15pt;
+    color:rgb(23, 23, 23);
+}
+
+.bestSellerButton2{
+    border: 1px solid grey;
+    background-color: rgb(8, 189, 8);
+    font-size: larger;
+    border-radius: 5px;
+    height: 40px;
+    padding: 5px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.bestSellerButton2:hover{
+    background-color: rgb(157, 255, 157);
+}
+.navbar-container2{
+    background-color: black;
+    height: 50px;
+    position: fixed;
+    width: 1700px;
+    top: 0;
+}
+.others1{
+    position: relative;
+    left: 480px;
+}
+
+.popup-message1{
+    background-color: black;
+    color:aliceblue;
+    font-size: 18pt;
+    width: 220px;
+    border-radius: 5px;
+    /* margin: -509px 0px 0px 0px; */
+    position: relative;
+    top:0px;
+    left:430px;
+    /* padding: auto; */
+    padding:0px 30px;
+    margin-bottom: 30px;
+}
+
+@media only screen and (min-width: 270px) and (max-width: 540px) {
+   
+    .subImg2{
+        /* border: 2px solid blueviolet;  */
+        width: 300px;
+    }
+    
+    .bestSellerButton2{
+        border: 1px solid grey;
+        background-color: rgb(8, 189, 8);
+        font-size: larger;
+        border-radius: 5px;
+        height: 40px;
+        padding: 5px;
+        font-weight: 600;
+        margin-bottom: 30px;
+    }
+    .buy{
+        display:none;
+    }
+    .others1{
+        position: relative;
+        left: 30px;
+        top: 80px;
+    }
+    
+  
+}
